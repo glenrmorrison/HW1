@@ -1,0 +1,11 @@
+#!bin/bash
+
+curl -o ecoli2.gz https://biodataprog.github.io/programming-intro/data/Ecoli-vs-Yersinia.BLASTP.tab.gz
+
+gunzip ecoli2.gz
+
+head -n25 ecoli2
+
+tail -3 ecoli2
+
+wc -l ecoli2

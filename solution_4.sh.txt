@@ -1,0 +1,7 @@
+#!bin/bash
+
+cur -o Nc34 https://biodataprog.github.io/programming-intro/data/Nc3H.expr.tab
+
+(head -n 1 Nc34 && tail -n +2 Nc34  | sort -k5) > Nc34sorted
+
+tail -n10 Nc34sorted
