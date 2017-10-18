@@ -1,0 +1,5 @@
+#!/bin/bash
+
+curl -o ecoli https://biodataprog.github.io/programming-intro/data/Ecoli-vs-Yersinia.BLASTP.tab.gz
+
+du ecoli
